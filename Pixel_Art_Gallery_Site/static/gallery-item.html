@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/logo_pixel_art.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./images/logo_pixel_art.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/gallery-item.css" />
+    <title>Pixel Art Gallery</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header-inner">
+            <div class="logo-block">
+              <img
+                src="./images/logo_pixel_art.png"
+                alt="Logo pixel art gallery"
+                class="logo"
+              />
+              <p>Pixel Art <br />Gallery</p>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="training.html">Обучение</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="gallery-item-inner">
+            <section class="content">
+              <h3 id="item-name">Название</h3>
+              <img id="item-image" src="" alt="Название" />
+              <p id="item-author">Автор</p>
+              <p id="item-tools">Используемые программы</p>
+            </section>
+            <section class="comments">
+              <p class="comments-title">Комментарии</p>
+              <form id="comment-form">
+                <input
+                  type="text"
+                  id="comment-name"
+                  class="comment-input"
+                  placeholder="Укажите ваше имя"
+                  required
+                />
+                <textarea
+                  id="comment-text"
+                  class="comment-input"
+                  placeholder="Добавьте ваш комментарий"
+                  required
+                ></textarea>
+                <input type="submit" value="Добавить" class="comment-submit" />
+              </form>
+              <ul id="comments-list">
+                <!-- Comments will be dynamically inserted here -->
+              </ul>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/gallery-item.js"></script>
+  </body>
+</html>

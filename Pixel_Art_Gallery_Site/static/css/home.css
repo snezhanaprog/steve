@@ -1,0 +1,58 @@
+.main-title-home-page {
+  margin-top: 54px;
+
+  padding: 22px 98px;
+  border: 2px solid var(--border-color-blue);
+  border-radius: 50px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.title-section {
+    margin-top: 54px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--main-color);
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .title-section__description {
+        margin-top: 48px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .dignity-flaws {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        ul {
+            margin-top: 12px;
+            margin-left: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            list-style-type: disc;
+        }
+    }
+
+    .drawing-techniques__description {
+        margin-top: 16px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}

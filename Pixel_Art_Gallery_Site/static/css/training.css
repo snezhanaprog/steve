@@ -1,0 +1,157 @@
+.main-title-learning-page {
+  margin-top: 54px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    margin-top: 32px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--main-color);
+  }
+}
+
+section {
+  margin-top: 54px;
+}
+h3 {
+  text-align: center;
+}
+p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 21px;
+  color: var(--main-color);
+
+  text-align: start;
+}
+.what-is-it {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .what-is-it__description {
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    
+  }
+}
+
+.drawing-methods {
+  ul {
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+
+      
+
+      .drawing-methods__description-images {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+      }
+    }
+  }
+}
+
+.programms {
+  
+
+  .programms-title {
+    margin-top: 48px;
+  }
+
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.drawing-principles {
+  .drawing-principles__description {
+    margin-top: 48px;
+
+    
+
+    ul {
+      margin-top: 28px;
+      display: flex;
+      flex-direction: column;
+      
+      gap: 16px;
+
+
+      li {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        img {
+            margin: 0 auto;
+        }
+
+        .principe-pic-1 {
+            height: 633px;
+        }
+
+        .drawing-principles__description__block-images {
+            display: flex;
+            flex-direction: row;
+        }
+      }
+    }
+  }
+}
+
+.example-work {
+    ul {
+        margin-top: 48px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            
+
+            img {
+                object-fit: cover;
+                width: 360px;
+                height: 360px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.next {
+    p {
+        margin-top: 54px;
+    }
+}

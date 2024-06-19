@@ -1,0 +1,40 @@
+:root {
+  --main-color: #000000;
+  --font-family: "Inter", sans-serif;
+  --border-color-blue: #0f85f6;
+}
+
+.wrapper {
+  margin: 18px 254px;
+  padding: 24px 0px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50px;
+}
+
+.container {
+  padding: 0px 54px;
+}
+
+body {
+  font-family: var(--font-family);
+  background: url("../images/site_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--main-color);
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: var(--main-color);
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--main-color);
+}
